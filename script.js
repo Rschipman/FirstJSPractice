@@ -19,7 +19,7 @@
 //   console.log("PASSWORD TOO SHORT! Must be 6+ characters");
 // }
 
-const day = 2;
+const day = 1;
 
 switch (day) {
   case 1:
@@ -37,4 +37,6 @@ switch (day) {
   case 5:
     console.log("Friday");
     break;
+  default:
+    console.log(Error("faulty input"));
 }
