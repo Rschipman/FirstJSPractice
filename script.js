@@ -10,7 +10,11 @@
 const password = prompt("please enter new password");
 
 if (password.length >= 6) {
-  console.log("LONG ENOUGH PASSWORD!");
+  if (password.indexOf(" ") === -1) {
+    console.log("Valid password");
+  } else {
+    console.log("Password cannot contain spaces ");
+  }
 } else {
   console.log("PASSWORD TOO SHORT! Must be 6+ characters");
 }
