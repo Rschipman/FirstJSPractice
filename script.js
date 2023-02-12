@@ -19,24 +19,30 @@
 //   console.log("PASSWORD TOO SHORT! Must be 6+ characters");
 // }
 
-const day = 1;
+// const day = 1;
 
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 3:
-    console.log("Wednesday");
-    break;
-  case 4:
-    console.log("Thursday");
-    break;
-  case 5:
-    console.log("Friday");
-    break;
-  default:
-    console.log(Error("faulty input"));
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   default:
+//     console.log(Error("faulty input"));
+// }
+for (let i = 1; i <= 10; i++) {
+  console.log(`i is: ${i}`);
+  for (let j = 1; j <= 3; j++) {
+    console.log(`       j is: ${j}`);
+  }
 }
